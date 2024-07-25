@@ -1,0 +1,44 @@
+[
+    {
+        "id_producto": 1,
+        "nombre": "D.V Catena Zapata - Malbec Malbec",
+        "descripcion": "blend proveniente de uvas Malbec de dos diferentes viñedos. El viñedo Angelica aporta aromas de mermeladas de ciruelas maduras y moras negras, suavidad y volumen al paladar.",
+        "imagen": "./img/productos/1.jpeg",
+        "stock": 100
+    },
+    {
+        "id_producto": 2,
+        "nombre": "Angelica Zapata - Cabernet Sauvignon",
+        "descripcion": "El Cabernet Sauvignon, proviene del Lote 3 del Viñedo La Pirámide. Estas viñas fueron plantadas en 1983 y otorgan un nivel excepcional de balance y homogeneidad, desde la producción y distribución total de racimos al tamaño y densidad de la canopia en la planta.",
+        "imagen": "./img/productos/2.jpeg",
+        "stock": 150
+    },
+    {
+        "id_producto": 3,
+        "nombre":"El Enemigo - Chardonnay",
+        "descripcion": "Fresco, con aporte del calcáreo y la tiza del suelo de Gualtallary, el resultado es un Chardonnay chispeante, aromático y notablemente aterciopelado en boca.",
+        "imagen": "./img/productos/3.jpeg",
+        "stock": 200
+    },
+    {
+        "id_producto": 4,
+        "nombre": "Abito - La Juventud - Malbec",
+        "descripcion": "Este Malbec se caracteriza por su gran expresión frutal, su tipicidad y su frescura. En nariz recuerda a aromas de frutas rojas, negras y frutos secos, aparecen también notas de flores blancas como jazmines y violetas. En boca es untuoso y amable, resalta su buena acidez, su redondez y amplitud.",
+        "imagen": "./img/productos/4.jpeg",
+        "stock": 80
+    },
+    {
+        "id_producto": 5,
+        "nombre":  "Fond de Cave - Gran Reserva Malbec",
+        "descripcion": "expresa carácter, elegancia y sofisticación en tres exponentes que son la máxima expresión de la serie Fond de Cave. Es elaborado con uvas seleccionadas de antiguos viñedos que se han perfeccionado con el tiempo alcanzando su equilibrio natural para entregar una propuesta vínica única.",
+        "imagen": "./img/productos/5.jpeg",
+        "stock": 50
+    },
+    {
+        "id_producto": 6,
+        "nombre": "Luca - Malbec",
+        "descripcion": "Las uvas provienen de viñedos familiares antiguos de las mejores zonas del Valle de Uco, mostrando una idea amplia de la región. Tiene una parte de La Consulta, que aporta madurez y amplitud, y otra parte de Gualtallary, con su perfil floral y su linealidad.",
+        "imagen": "./img/productos/6.jpeg",
+        "stock": 120
+    }
+]

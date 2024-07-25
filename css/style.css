@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=Outfit:wght@100&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300..700&display=swap');
+:root{
+  --color-acento: #606ef1;
+  --color-acento-oscuro: #0b394e;
+  --color-titulos: #243d88;
+  --color-texto: black;
+}
+
+body{
+  margin: 0;
+  font-family: "Signika Negative", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h3, p{
+  margin: 5px;
+}
+
+.escondido{
+  display: none;
+}
+
+a{
+  background-color: unset;
+  border:unset;
+  cursor:pointer;
+  text-decoration: none;
+  transition: 200ms;
+  color: var(--color-texto);
+}
+
+button{
+  transition: 200ms;
+}
+
+a:hover:not(#cart), button:hover{
+  color: var(--color-acento);
+}
+
+/* Header */
+header{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.09);
+  margin-bottom: 10px;
+  font-size: larger;
+}
+
+header nav{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 60px;
+}
+
+#logo{
+  height: 75px;
+  margin: 20px;
+}
+
+header nav div{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+header nav img{
+  height: 25px;
+}
+
+#cuenta-carrito{
+  position: absolute;
+  background-color: var(--color-acento);
+  border-radius: 100%;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  aspect-ratio: 1;
+  text-align: center;
+  /* margin-bottom: 15px; */
+}
+
+/* MAIN */
+
+h1{
+  font-size: 56px;
+  width: 100%;
+  text-align: center;
+  text-decoration: underline;
+  color: var(--color-titulos);
+}
+
+footer{
+  text-align: center;
+  box-shadow: -1px -3px 5px rgba(0, 0, 0, 0.09);
+  padding-top: 2px;
+  margin-top: auto;
+}
+
+footer a{
+  text-decoration: underline;
+}
